@@ -16,6 +16,9 @@ jobs:
     - name: Install Doxygen
       run: sudo apt-get install doxygen -y
 
+    - name : Install Dot
+      run : sudo apt-get install dot -y
+
     - name: Generate Documentation
       run: doxygen conf/Doxyfile
 
