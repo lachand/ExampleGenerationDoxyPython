@@ -19,7 +19,4 @@ jobs:
     - name: Generate Documentation
       run: doxygen conf/Doxyfile
 
-    - name: Deploy Documentation
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        publish_dir: ./documentation
+
