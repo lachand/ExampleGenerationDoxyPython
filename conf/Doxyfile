@@ -7,7 +7,7 @@ PROJECT_NAME           = "ExampleGenerationDoxyPython"
 PROJECT_NUMBER         = 1.0
 
 # Output directory for the generated documentation
-OUTPUT_DIRECTORY       = docs
+OUTPUT_DIRECTORY       = documentation
 
 # Source code directory
 INPUT                  = src
@@ -26,7 +26,7 @@ GENERATE_HTML          = YES
 
 # Output format
 GENERATE_LATEX         = NO
-GENERATE_XML           = YES
+GENERATE_XML           = NO
 
 # Enable inheritance diagram (requires Graphviz)
 HAVE_DOT               = YES
