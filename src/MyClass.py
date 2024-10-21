@@ -32,7 +32,7 @@ class MyClass:
         @param arg1: Description of the first argument.
         @param arg2: Description of the second argument.
 
-        @return: Description of the return value.
+        @return: Description of the return value. 
         """
         # Implementation of the method
         pass
